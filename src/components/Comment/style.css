@@ -1,0 +1,33 @@
+div#comment{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+div#avatar{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #7159c1;
+  margin-right: 10px;
+}
+
+div#content{
+  background: #EEE;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 13px;
+  color: #3E3E3E;
+  padding: 10px;
+}
+
+div#content strong{
+  font-weight: bold;
+}
+
+div#content span{
+  font-weight: normal;
+}
+
+
